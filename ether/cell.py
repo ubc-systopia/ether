@@ -1,6 +1,7 @@
 import inspect
 import itertools
-from collections import defaultdict, Iterable
+from collections import defaultdict
+from collections.abc import Iterable
 from typing import Callable, List, Union
 
 from srds import RandomSampler, ConstantSampler, IntegerTruncationSampler, ParameterizedDistribution
